@@ -1,6 +1,6 @@
 "use strict";
 
-const sildes = document.querySelector(".silde-all");
+// const sildes = document.querySelector(".silde-all");
 const oneLight = document.querySelector(".one-light ");
 const twoLight = document.querySelector(".two-light ");
 const threeLight = document.querySelector(".three-light ");
@@ -41,7 +41,7 @@ const traffic = () => {
 };
 colorFunc();
 
-setInterval(() => {}, 1000);
-setInterval(traffic, 1000);
+setInterval(() => {}, 100);
+setInterval(traffic, 100);
 
-setInterval(colorFunc, 30000);
+setInterval(colorFunc, 3000);
